@@ -6,8 +6,9 @@ h1, h2, h3 {
     font-family: "Lobster", cursive;
 }
 
+
 h2 {
-    color: #3046C5;
+    color: black;
 }
 
 header h2 {
@@ -41,11 +42,67 @@ a, a:hover {
     text-decoration: none;
   }
 
-  .carousel-caption {
-      background-color:rgba(0,0,0,0.5);
+  .modal-body {
+    background: linear-gradient(to right, #5637DD, #3046C5, #60106B);
   }
 
-  .carousel {
-      border: solid #5637DD;
-      
+  .modal-header {
+      font-family: "Lobster", cursive;
+      color: #5637DD;
+  }
+
+  .closeButton {
+      background-color: #5637DD;
+      color: white;
+  }
+
+  .card{
+      border: dotted #901CAD;
+      border-radius: 40px 0px 40px 0px;
+      overflow: hidden;
+  }
+  .card-header {
+    background:linear-gradient(to right, #5637DD, #3046C5, #60106B);
+    color: white;
+    font-family: "Lobster",cursive;
+  }
+
+  .card-body {
+background: white;
+color: #5637DD;
+
+  }
+  tr {
+    background:linear-gradient(to right, #5637DD, #3046C5, #60106B);
+    color: white;
+  }
+
+  .collapse {
+      font-family: "Lobster", cursive;
+      text-decoration: none;
+  }
+
+  .btn-link, .btn-link:hover {
+      text-decoration: none;
+      color: white;
+      font-size: 20px;
+  }
+
+  .feedback {
+    background:linear-gradient(to right, #5637DD, #3046C5, #60106B);
+    color: white;
+    padding: 30px;
+  }
+
+  .submit {
+      background-color: white;
+      color: #5637DD;
+      font-family: "Lobster", cursive;
+      font-size: 20px;
+  }
+
+  .address {
+    background:linear-gradient(to right, #5637DD, #3046C5, #60106B);
+    color: white;
+    padding: 30px;
   }
